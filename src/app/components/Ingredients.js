@@ -9,7 +9,7 @@ const latobold = Lato({
 const Ingredients = (props) => {
     return (
         <>
-            <div className="md:py-6  sm:py-4 ">
+            <div className=" ">
                 <h2 className={`${latobold.className} text-center uppercase   text-blue-700 text-xl sm:text-2xl md:text-3xl lg:text-4xl `}>
                     {props.INGRIDENTS}
                 </h2>

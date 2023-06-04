@@ -9,7 +9,7 @@ const Bonus = () => {
     <>
       <div className=" bg-gray-300   py-3 sm:py-4  md:py-6 lg:py-8">
         <div className="  ">
-          <div className={`${latobold.className} bg-blue-500 text-white md:py-6 sm:py-4 py-2 lg:py-8 md:text-2xl sm:text-xl text-lg lg:text-3xl  text-center  uppercase md:mx-16 sm:mx-12 mx-4 lg:mx-20 rounded-lg`}>
+          <div className={`${latobold.className} bg-blue-500 text-white p-4 sm:px-0 md:py-6 sm:py-4 py-2 lg:py-8 md:text-2xl sm:text-xl text-lg lg:text-3xl  text-center  uppercase md:mx-16 sm:mx-12 mx-4 lg:mx-20 rounded-lg`}>
           Get Aline's Amazing Bonuses FOR FREE When You Buy 2 Bottles Or More!
           </div>
           <div className="flex md:my-6 sm:my-4 my-4 lg:my-8 bg-white">
@@ -17,7 +17,8 @@ const Bonus = () => {
               <img src="/assets/bonus1.jpg"  alt="Bonus1" />
             </div>
             <div>
-              <h2 className={`${latobold.className} text-blue-700 md:text-3xl mr-2 sm:mr-0 sm:text-2xl text-lg lg:text-4xl font-semibold font-primary capitalize mt-6`}>
+              <h2 className={`${latobold.className} text-blue-700 md:text-3xl
+               mr-2 sm:mr-0 sm:text-2xl text-base lg:text-4xl font-semibold font-primary capitalize mt-6`}>
               Bonus#1 is her Slim Over 55 Program!
               </h2>
               
@@ -36,7 +37,8 @@ const Bonus = () => {
               <img src="/assets/bonus2.png"  alt="Bonus1" />
             </div>
             <div>
-              <h2 className={`${latobold.className} text-blue-700 md:text-3xl mr-2 sm:mr-0 sm:text-2xl text-lg lg:text-4xl font-semibold font-primary capitalize mt-6`}>
+              <h2 className={`${latobold.className} text-blue-700 md:text-3xl mr-2 sm:mr-0 
+              sm:text-2xl text-base lg:text-4xl font-semibold font-primary capitalize mt-6`}>
               Bonus#2 is Healthy Fat Loss Desserts Cookbook and Videos!
               </h2>
               
@@ -57,7 +59,7 @@ const Bonus = () => {
               <img src="/assets/bonus3.jpg"  alt="Bonus1" />
             </div>
             <div>
-              <h2 className={`${latobold.className} text-blue-700 md:text-3xl mr-2 sm:mr-0 sm:text-2xl text-lg lg:text-4xl font-semibold font-primary capitalize mt-6`}>
+              <h2 className={`${latobold.className} text-blue-700 md:text-3xl mr-2 sm:mr-0 sm:text-2xl text-base lg:text-4xl font-semibold font-primary capitalize mt-6`}>
               Bonus#3 is her newly released anti-aging eBook "57 Secrets To Reverse Aging"!
               </h2>
               

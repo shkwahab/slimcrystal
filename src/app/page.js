@@ -21,7 +21,6 @@ export default function Home() {
        PRODUCTNAME="Slim Crytal"
        REGULARPRICE="Regular Price: $194/Bottle"
        NEWPRICE="Only For Today: $97/Bottle "
-
       />
     </>
   )

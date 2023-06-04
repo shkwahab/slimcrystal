@@ -20,7 +20,7 @@ const LimitedOffer = (props) => {
                 </div>
                 <div className=' md:mt-6 sm:mt-4 mt-2 lg:mt-8 flex justify-evenly'>
                     <div className="  grid md:grid-cols-2  md:mx-3 lg:mx-4">
-                        <div className='w-[500px]  my-4 lg:my-0 mx-2'>
+                        <div className='lg:w-[500px] my-4 lg:my-0 mx-2'>
                             <div className=' border-2 border-gray-200 rounded-lg bg-white md:p-8 sm:p-6 p-4 lg:p-12
                              py-4'>
                                 <h2 className={`${latobold.className} font-primary md:text-3xl sm:text-2xl text-xl lg:text-4xl font-semibold text-center text-gray-900`}>
@@ -73,7 +73,7 @@ const LimitedOffer = (props) => {
                             </div>
                         </div>
 
-                        <div className='w-[500px] my-4 lg:my-0 mx-2'>
+                        <div className='lg:w-[500px]my-4 lg:my-0 mx-2'>
                             <div className='  border-2 border-gray-200 
                             rounded-lg bg-white md:p-8 sm:p-6 p-4 lg:p-12
                              py-4'>

@@ -29,14 +29,15 @@ const Header = (props) => {
     <>
       <section id="header">
 
-        <div className={`text-white uppercase  bg-gradient-to-tl from-blue-800 to-blue-400  font-primary lg:px-40 md:px-28 py-4 px-4 sm:leading-8 sm:px-28 sm:py-8 sm:text-2xl md:text-3xl text-xl lg:text-4xl md:leading-10 lg:leading-[50px] text-center ${latobold.className}`}>
+        <div className={`text-white uppercase  bg-gradient-to-tl from-blue-800
+         to-blue-400  font-primary lg:px-40 md:px-28 py-4 px-4 sm:leading-8 sm:px-28 sm:py-8 sm:text-2xl md:text-3xl text-xl lg:text-4xl md:leading-10 lg:leading-[50px] text-center ${latobold.className}`}>
           <h1 className=" md:mx-16 sm:mx-8 mx-4 lg:mx-20">
             {props.HEADLINE}
           </h1>
         </div>
       </section>
-      <section className=" p-4 bg-gray-300" id="hero">
-        <div className="m-4 lg:mx-16 sm:m-8 sm:py-4 my-4  md:mx-12 md:py-4 bg-gray-100 text-[#212529] shadow-2xl py-2  md:my-16 lg:my-20 rounded-md ">
+      <section className="  p-4  bg-gray-300" id="hero">
+        <div className=" px-4  lg:mx-16  sm:py-4   md:mx-12 md:py-4 bg-gray-100 text-[#212529] shadow-2xl py-2   rounded-md ">
 
           <div className={`${latobold.className} ]  text-center px-4 uppercase  text-xl md:px-16 sm:px-8  lg:px-20  lg:leading-[50px] font-primary md:leading-[42px] sm:text-2xl  md:text-3xl lg:text-4xl `}>
             {props.SUBHEADLINE}
@@ -67,19 +68,19 @@ const Header = (props) => {
           </div>
 
 
-          <div className={`${lato.className} font-secondary text-base my-2 sm:text-xl md:text-2xl lg:text-3xl md:my-4 text-[#212529] font-semibold  capitalize flex justify-center`}>
+          <div className={`${latobold.className} text-center text-base my-2 sm:text-xl md:text-2xl lg:text-3xl md:my-4 text-[#212529]   capitalize flex justify-center`}>
             {props.CLICKTOBUY}
-            <GiLobArrow className='mx-[2px] sm:mx-1 md:mx-2' />
+            <GiLobArrow className='text-xl sm:mx-1 md:mx-2' />
           </div>
 
           <div className="flex justify-center my-2">
             <Link target={"_self"} href={props.CBLINK}>
-              <button className={`${latobold.className} px-4 sm:px-8 sm:text-lg md:px-16  lg:px-20 sm:py-2  md:py-4 text-sm py-1 hover:bg-blue-900 duration-700 transition-all  bg-[#1f5986] md:text-2xl lg:text-3xl  capitalize font-primary text-gray-100 rounded-full`}>
+              <button className={`${latobold.className} px-4 sm:px-8 sm:text-lg md:px-16  lg:px-20 sm:py-2  md:py-4  p-4 hover:bg-blue-900 duration-700 transition-all  bg-[#1f5986] md:text-2xl lg:text-3xl text-xl  capitalize font-primary text-gray-100 rounded-full`}>
                 {props.CTATITLE}
               </button>
             </Link>
           </div>
-          <div className=" my-20 mt-20 grid sm:grid-cols-2">
+          <div className="  mt-20 grid sm:grid-cols-2">
             <div className=' sm:mx-2 md:mx-4'>
               <div className=" lg:block md:hidden hidden">
                 <img src={props.TWOBOTTLE} alt="2BOTTLE" />
