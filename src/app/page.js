@@ -1,9 +1,11 @@
+"use client"
 import React from "react"
 import Header from './components/Header'
-
+import ScrollToTop from "react-scroll-to-top"
 export default function Home() {
   return (
     <>
+    <ScrollToTop smooth={true} top={100} className={" px-1"}  />
      <Header
       CBLINK="https://17a54lh4ox603kdhmaty5t7nf8.hop.clickbank.net/?tid=googleads"
        HEADLINE="Slim Crytal Only $97/Bottle - Limited Time Offer"

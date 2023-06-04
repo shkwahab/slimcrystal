@@ -1,7 +1,5 @@
-"use client"
 import Footer from './components/Footer';
 import './globals.css'
-import ScrollToTop from "react-scroll-to-top";
 import { Lato } from "next/font/google";
 
 const lato = Lato({
@@ -17,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <ScrollToTop smooth={true} top={100} className={" px-1"}  />
+      
       <body className={lato.className}>   
         {children}
         <Footer
